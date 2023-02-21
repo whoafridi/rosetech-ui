@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>RoseTech Solutions LTD.</title>
+  <!-- CSS -->
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css"
+    integrity="sha512-SbiR/eusphKoMVVXysTKG/7VseWii+Y3FdHrt0EpKgpToZeemhqHeZeLWLhJutz/2ut2Vw1uQEj2MbRF+TVBUA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- fontawesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body data-bs-spy="scroll">
+  <section id="hero">
+    <nav class="navbar navbar-expand-lg d-flex align-items-center py-2 py-lg-4 navbar">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="/">
+          <img src="./assets/images/logo-rosetech.svg" alt="rosetech-logo" width="30" height="24"
+            class="d-inline-block align-text-top">
+          ROSE<span class="text-warning">TECH</span>
+        </a>
+        <!-- Toggle Open -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- /Toggle Open -->
+        <div class="offcanvas offcanvas-end w-75" tabindex="-1" id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header py-2">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+              <img src="./assets/images/logo-rosetech.svg" alt="rosetech-offcanvas-logo" width="30" height="24"
+                class="d-inline-block align-text-top">
+              ROSE<span class="text-warning">TECH</span>
+              </a>
+            </h5>
+            <button type="button" class="navbar-toggler" data-bs-dismiss="offcanvas" aria-label="Close">
+              <i class="fa-solid fa-xmark"></i>
+            </button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+              <li class="nav-item px-2">
+                <a class="nav-link rounded" href="#hero">Home</a>
+              </li>
+              <li class="nav-item px-2">
+                <a class="nav-link rounded" href="#about">About</a>
+              </li>
+              <li class="nav-item px-2">
+                <a class="nav-link rounded" href="#services">Services</a>
+              </li>
+              <li class="nav-item px-2">
+                <a class="nav-link rounded" href="#cases">Cases</a>
+              </li>
+              <li class="nav-item px-2">
+                <a class="nav-link rounded" href="#blog">Blog</a>
+              </li>
+              <li class="nav-item px-2">
+                <a class="nav-link rounded" href="#career">Career</a>
+              </li>
+              <li class="nav-item px-2">
+                <a class="nav-link rounded" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="row g-4 justify-content-between align-items-center">
+        <div class="col-lg-6 col-md-6 text-lg-start">
+          <h1 class="display-6 fw-bold text-uppercase">
+            <span class="text-secondary">Accelerating Business Growth with Innovative </span><span
+              class="text-warning">Tech Solutions</span>
+          </h1>
+          <p class="mt-2 pe-5">
+            Stay ahead of the competition with our cutting-edge<br>software solutions designed for your unique
+            business<br>needs.
+          </p>
+          <a href="#contact" class="btn btn-secondary rounded-pill shadow py-2 px-3 text-white">Book an Appointment</a>
+        </div>
+        <div class="col-lg-6 col-md-6">
+          <img class="img-fluid" src="./assets/images/hero-img.png" alt="rosetech-hero-img" />
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /Hero -->
+  <!-- explore -->
+  <section id="explore" class="mt-5 mb-5 pt-5 pb-5">
+    <div class="container">
+      <h1 class="text-secondary text-center">Explore</h1>
+      <h2 class="display-5 fw-bold text-warning text-center">
+        RoseTech
+      </h2>
+      <div class="row g-2">
+        <div class="col-lg-4 col-md-4 col-sm-12">
+          <img src="./assets/images/explore_1.png" class="rounded img-fluid" loading="lazy"
+            alt="rosetech-explore-image-1" />
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12">
+          <img src="./assets/images/explore_2.png" class="rounded img-fluid" loading="lazy"
+            alt="rosetech-explore-image-2" />
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12">
+          <img src="./assets/images/explore_3.png" class="rounded img-fluid" loading="lazy"
+            alt="rosetech-explore-image-3" />
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+  <!-- /explore -->
+  <!-- who we are -->
+  <section id="whoweare" class="mt-5 mb-5 pt-5 pb-5">
+    <div class="container">
+      <div class="row mt-3 g-2 g-lg-4">
+        <div class="col-lg-7 col-md-7">
+          <h1 class="h2 fw-bold text-secondary">Who <span class="text-warning">We Are</span>
+          </h1>
+          <h2 class="text-secondary">
+            “Utilize Technology in Business”
+          </h2>
+          <p class="pe-5 fs-5 text-secondary"><span class="fw-bold">RoseTech Solutions Ltd</span> aspires to provide
+            comprehensive software solutions to businesses of all sizes. From enterprises to startups, SMEs, agencies,
+            corporations, and institutions, we aim to be the technical wing for these organisations. Our goal is to
+            enable these businesses to focus solely on their core operations, without worrying about the technical
+            aspects of their operations. We aim to achieve this by offering a wide range of software services, covering
+            every aspect of technology. Our goal is to empower businesses to grow and scale through the use of
+            technology, and we strive to be the partner of choice for organisations seeking to integrate technology into
+            their operations. Our vision is to be the premier provider of innovative, end-to-end software solutions,
+            empowering businesses to achieve their full potential. We are committed to staying ahead of the curve and
+            providing the latest in cutting-edge technology, while still delivering personalised and customised
+            solutions tailored to the unique needs of each of our clients.
+          </p>
+        </div>
+        <div class="col-lg-4 col-sm-12 col-md-5">
+          <img src="./assets/images/whoweare.svg" class="rounded img-fluid" loading="lazy" alt="rosetech-who-we-are" />
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /who we are -->
+  <!-- our work -->
+  <section id="ourwork" class="mt-5 mb-5 pt-5 pb-5">
+    <div class="container">
+      <h1 class="h2 fw-bold text-secondary">How do
+        <span class="text-warning"> we work ?</span>
+      </h1>
+      <p class="pe-5 fs-6 text-secondary">Our approach to software development is simple yet effective. We listen to
+        your needs, understand your vision, and work closely with you to bring your ideas to life. Whether you're an
+        enterprise, startup, SME, agency, corporate, or institution, our goal is to empower you with the tools and
+        expertise you need to achieve your goals.
+      </p>
+      <div class="row">
+        <!-- ##### -->
+        <div class="col-lg-6 mt-5 ps-5">
+          <div class="d-flex align-items-center mb-3">
+            <div class="p-3 rounded-4 bg-dark">
+              <img src="./assets/images/code.svg" alt="rosetech-work-img-1" class="w-100">
+            </div>
+            <p class="pe-5 ps-4 pt-2 text-secondary">We believe in a collaborative and personalised approach to software
+              development</p>
+          </div>
+          <div class="d-flex align-items-center mb-3">
+            <div class="p-3 rounded-4 bg-dark">
+              <img src="./assets/images/people.svg" alt="rosetech-work-img-2" class="w-100">
+            </div>
+            <p class="pe-5 ps-4 pt-2 text-secondary">Our team works closely with clients to understand their unique
+              needs and challenges</p>
+          </div>
+          <div class="d-flex align-items-center mb-3">
+            <div class="p-3 rounded-4 bg-dark">
+              <img src="./assets/images/circle.svg" alt="rosetech-work-img-3" class="w-100">
+            </div>
+            <p class="pe-5 ps-4 pt-2 text-secondary">Close partnership with clients delivers the best possible outcomes
+              and ensures their
+              success</p>
+          </div>
+          <div class="d-flex align-items-center mb-3">
+            <div class="p-3 rounded-4 bg-dark">
+
+              <img src="./assets/images/coopearate.svg" alt="rosetech-work-img-4" class="w-100">
+            </div>
+            <p class="pe-5 ps-4 pt-2 text-secondary">Customised solutions are developed based on clients' specific
+              requirements</p>
+          </div>
+        </div>
+
+        <div class="col-lg-5">
+          <img src="./assets/images/work.svg" class="rounded img-fluid" alt="rosetech-work-img-5" loading="lazy" />
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /our work -->
+  <!-- services -->
+  <section id="services" class="mt-3 mb-5 pt-5 pb-5">
+    <div class="container mt-5 mb-5">
+      <h1 class="display-5 h2 fw-bold text-secondary text-center">Our
+        <span class="text-warning">Services</span>
+      </h1>
+      <h2 class="fs-6 fw-bold text-secondary text-center">
+        We take digital experience to the next level
+      </h2>
+      <p class="fs-5 text-secondary p-5 text-center fw-semibold">
+        Our team of experts leverages the latest technologies to create innovative and scalable software solutions that
+        help our clients improve their business processes, increase efficiency, and drive growth. We are committed to
+        delivering high-quality, reliable, and secure software that meets the needs of our clients and their customers.
+        With a wide range of services including.
+      </p>
+      <div class="row align-items-center">
+        <div class="col-lg-2 col-sm-12 col-md-6">
+          <div class="pe-5 w-50">
+            <img class="img-fluid" src="./assets/images/Group.svg" alt="rosetech-erp" />
+          </div>
+          <div class="w-75">
+
+            <p class="text-danger mt-1">EPR</p>
+            <p class="text-secondary lh-1 mt-5">
+              <small>
+                Our ERP systems integrate all aspects of your business, including finance, HR, inventory management, and
+                more, into a single, unified platform.
+              </small>
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-2 col-sm-12 col-md-6">
+          <div class="pe-5 w-50">
+            <img class="img-fluid" src="./assets/images/Group (1).svg" alt="rosetech-inventory" />
+          </div>
+          <p class="mt-1 text-primary">Inventory Management Systems</p>
+          <p class="text-secondary lh-1 mt-5">
+            <small>
+              With real-time data, you'll always know what's in your warehouse, where it is, and when it's running low.
+            </small>
+          </p>
+        </div>
+        <div class="col-lg-2 col-sm-12 col-md-6">
+          <div class="pe-5 w-50">
+            <img class="img-fluid" src="./assets/images/Group (2).svg" alt="rosetech-elearning" />
+          </div>
+          <p class="text-danger mt-1">E-Learning Management Systems</p>
+          <p class="text-secondary lh-1 mt-5">
+            <small>
+              With our systems, you can create online courses, manage student enrolments, and track progress.
+            </small>
+          </p>
+        </div>
+        <div class="col-lg-2 col-sm-12 col-md-6">
+          <div class="pe-5 w-50">
+            <img class="img-fluid" src="./assets/images/Group 3.svg" alt="rosetech-accounting" />
+          </div>
+          <p class="text-warning mt-1">Accounting Management Systems</p>
+          <p class="text-secondary lh-1 mt-5">
+            <small>
+              Our systems provide real-time insights into your financial performance, so you can make informed business
+              decisions.
+            </small>
+          </p>
+        </div>
+        <div class="col-lg-2 col-sm-12 col-md-6">
+          <div class="pe-5 w-50">
+            <img class="img-fluid" src="./assets/images/Group (3).svg" alt="rosetech-hr" />
+          </div>
+          <p class="text-success mt-1">HR Payroll
+            Solutions</p>
+          <p class="text-secondary lh-1 mt-5">
+            <small>
+              Our systems streamline HR processes, reducing administrative workload, and providing valuable insights
+              into
+              your workforce.
+            </small>
+          </p>
+        </div>
+        <div class="col-lg-2 col-sm-12 col-md-6">
+          <div class="pe-5 w-50">
+            <img class="img-fluid" src="./assets/images/Group (4).svg" alt="rosetech-pos" />
+          </div>
+          <p class="text-primary mt-1">POS and Billing Systems</p>
+          <p class="text-secondary lh-1 mt-5">
+            <small>
+              With real-time data, you can keep track of sales and customer transactions, making it easier to manage
+              your
+              business finances.
+            </small>
+          </p>
+        </div>
+      </div>
+      <div class="row align-items-center mt-3">
+        <div class="col-lg-2 col-sm-12 col-md-6">
+          <div class="pe-5 w-50">
+            <img class="img-fluid" src="./assets/images/Group (5).svg" alt="rosetech-mobile" />
+          </div>
+          <p class="text-primary mt-1">Mobile Application Development</p>
+          <p class="text-secondary lh-1 mt-5">
+            <small>
+              We develop applications for both iOS and Android platforms, using the latest technologies such as React
+              Native and Flutter.
+            </small>
+          </p>
+        </div>
+        <div class="col-lg-2 col-sm-12 col-md-6">
+          <div class="pe-5 w-50">
+            <img class="img-fluid" src="./assets/images/Group (6).svg" alt="rosetech-ecom" />
+          </div>
+          <p class="text-success mt-1">E-Commerce Solutions</p>
+          <p class="text-secondary lh-1 mt-5">
+            <small>
+              From product catalogues to payment processing, we have you covered.
+            </small>
+          </p>
+        </div>
+        <div class="col-lg-2 col-sm-12 col-md-6">
+          <div class="pe-5 w-50">
+            <img class="img-fluid" src="./assets/images/Group (7).svg" alt="rosetech-digital-marketing" />
+          </div>
+          <p class="text-warning mt-1">Digital
+            Marketing</p>
+          <p class="text-secondary lh-1 mt-5">
+            <small>
+              We can help you drive traffic to your website and boost your online presence.
+            </small>
+          </p>
+        </div>
+        <div class="col-lg-2 col-sm-12 col-md-6">
+          <div class="pe-5 w-50">
+            <img class="img-fluid" src="./assets/images/Group (8).svg" alt="rosetech-seo" />
+          </div>
+          <p class="text-danger mt-1">SEO</p>
+          <p class="text-secondary lh-1 mt-5">
+            <small>
+              Our systems provide real-time insights into your financial performance, so you can make informed business
+              decisions.
+            </small>
+          </p>
+        </div>
+        <div class="col-lg-2 col-sm-12 col-md-6">
+          <div class="pe-5 w-50">
+            <img class="img-fluid" src="./assets/images/Group (9).svg" alt="rosetech-dedicated-team" />
+          </div>
+          <p class="text-primary mt-1">Dedicated Team for Development</p>
+          <p class="text-secondary lh-1 mt-5">
+            <small>
+              We offer dedicated team services for software development, providing you with a highly skilled and
+              dedicated team of developers to work on your projects.
+            </small>
+          </p>
+        </div>
+        <div class="col-lg-2 col-sm-12 col-md-6">
+          <div class="pe-5 w-50">
+            <img class="img-fluid" src="./assets/images/Group 2.svg" alt="rosetech-ai" />
+          </div>
+          <p class="text-danger mt-1">AI
+            Solutions</p>
+          <p class="text-secondary lh-1 mt-5">
+            <small>
+              Our solutions are designed to help you automate tasks, improve decision-making, and drive growth.
+            </small>
+          </p>
+        </div>
+      </div>
+      <div class="row align-items-center mt-3">
+        <div class="col-lg-2 col-sm-12 col-md-6">
+          <div class="pe-5 w-50">
+            <img class="img-fluid" src="./assets/images/Group (10).svg" alt="rosetech-api" />
+          </div>
+          <p class="text-danger mt-1">API Integrations</p>
+          <p class="text-secondary lh-1 mt-5">
+            <small>
+              Our team of experts will work closely with you to understand your needs and design a solution that meets
+              your requirements.
+            </small>
+          </p>
+        </div>
+        <div class="col-lg-2 col-sm-12 col-md-6">
+          <div class="pe-5 w-50">
+            <img class="img-fluid" src="./assets/images/Group (11).svg" alt="rosetech-desktop" />
+          </div>
+          <p class="text-primary mt-1">Desktop Application Development</p>
+          <p class="text-secondary lh-1 mt-5">
+            <small>
+              Our team of experts will work with you to design, develop, and deploy applications that meet your specific
+              needs.
+            </small>
+          </p>
+        </div>
+        <div class="col-lg-2 col-sm-12 col-md-6">
+          <div class="pe-5 w-50">
+            <img class="img-fluid" src="./assets/images/Group (12).svg" alt="rosetech-cloud-solutions" />
+          </div>
+          <p class="text-danger mt-1">Cloud
+            Solutions</p>
+          <p class="text-secondary lh-1 mt-5">
+            <small>
+              From cloud storage to cloud-based applications, we can help you leverage the power of the cloud to drive
+              your business forward.
+            </small>
+          </p>
+        </div>
+        <div class="col-lg-2 col-sm-12 col-md-6">
+          <div class="pe-5 w-50">
+            <img class="img-fluid" src="./assets/images/Group (13).svg" alt="rosetech-cybersecurity" />
+          </div>
+          <p class="text-warning mt-1">Cyber
+            Security</p>
+          <p class="text-secondary lh-1 mt-5">
+            <small>
+              Our DevOps services help businesses automate their software development and delivery processes, improving
+              efficiency and reducing the risk of errors.
+            </small>
+          </p>
+        </div>
+        <div class="col-lg-2 col-sm-12 col-md-6">
+          <div class="pe-5 w-50">
+            <img class="img-fluid" src="./assets/images/Group (14).svg" alt="rosetech-technicalsolutions" />
+          </div>
+          <p class="text-success mt-1">Technical Consultation</p>
+          <p class="text-secondary lh-1 mt-5">
+            <small>
+              Whether you're looking to improve your current infrastructure, integrate
+              new systems, or implement new
+              technologies, we have the expertise to guide you through the process.
+            </small>
+          </p>
+        </div>
+        <div class="col-lg-2 col-sm-12 col-md-6">
+          <div class="pe-5 w-50">
+            <img class="img-fluid" src="./assets/images/Group (15).svg" alt="rosetech-devops" />
+          </div>
+          <p class="text-primary mt-1">Devops</p>
+          <p class="text-secondary lh-1 mt-5">
+            <small>
+              Our DevOps services help businesses automate their software development
+              and delivery processes, improving
+              efficiency and reducing the risk of errors.
+            </small>
+          </p>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+  <!-- services -->
+  <!-- tools -->
+  <section id="tools" class="mt-5 mb-5 pt-5 pb-5">
+    <div class="container mt-5 mb-5">
+      <h1 class="display-5 h2 fw-bold text-secondary text-center">Our
+        <span class="text-warning">Tools</span>
+      </h1>
+      <h5 class="fw-bold text-secondary text-center">
+        We are using Latest tools such as
+      </h5>
+      <div class="row align-items-center text-center">
+        <div class="col-lg-1 col-sm-12"></div>
+        <div class="col-lg-2 col-sm-6 col-md-4">
+
+          <img class="img-fluid w-50" src="./assets/images/Ps Logo.svg" alt="rosetech-photoshop" />
+        </div>
+        <div class="col-lg-2 col-sm-6 col-md-4">
+          <img class="img-fluid w-25" src="./assets/images/Figma Logo.svg" alt="rosetech-figma" />
+        </div>
+        <div class="col-lg-2 col-sm-6 col-md-4">
+          <img class="img-fluid w-50" src="./assets/images/Php Logo.svg" alt="rosetech-php" />
+        </div>
+        <div class="col-lg-2 col-sm-6 col-md-6">
+          <img class="img-fluid w-25" src="./assets/images/JS Logo.svg" alt="rosetech-javascript" />
+        </div>
+        <div class="col-lg-2 col-sm-6 col-md-6">
+          <img class="img-fluid w-50" src="./assets/images/Html Logo.svg" alt="rosetech-html" />
+        </div>
+        <div class="col-lg-1 col-sm-12"></div>
+      </div>
+    </div>
+  </section>
+  <!-- /Value -->
+  <!-- people say/testimonial -->
+  <section id="people">
+    <div class="container">
+      <h1 class="h1 fw-bold text-secondary text-center">What people say about<br>
+        <span class="text-warning">RoseTech</span>
+      </h1>
+      <div class="row row-cols-1 row-cols-md-3 g-4 mt-5">
+        <div class="col">
+          <div class="card align-items-center p-5 shadow p-3 mb-5 bg-body-tertiary rounded border border-0">
+            <img src="./assets/images/Ellipse 3.svg" class="card-img-top w-25" alt="rosetech-testomonial-1">
+            <div class="card-body text-center pt-5 position-relative">
+              <img src="./assets/images/Frame.svg" alt="rosetech-quote-1"
+                class="position-absolute start-0 translate-middle-y">
+              <h5 class="card-title h6 fw-bold text-secondary">IMRAN HOSSAIN</h5>
+              <p class="card-text text-secondary">Close partnership with clients delivers the best possible outcomes and
+                ensures their
+                success</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card align-items-center p-5 shadow p-3 mb-5 bg-body-tertiary rounded border border-0">
+            <img src="./assets/images/Ellipse 3.svg" class="card-img-top w-25" alt="rosetech-testomonial-2">
+            <div class="card-body text-center pt-5 position-relative">
+              <img src="./assets/images/Frame.svg" alt="rosetech-quote-1"
+                class="position-absolute start-0 translate-middle-y">
+              <h5 class="card-title h6 fw-bold text-secondary">IMRAN HOSSAIN</h5>
+              <p class="card-text text-secondary">Close partnership with clients delivers the best possible outcomes and
+                ensures their
+                success</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card align-items-center p-5 shadow p-3 mb-5 bg-body-tertiary rounded border border-0">
+            <img src="./assets/images/Ellipse 3.svg" class="card-img-top w-25" alt="rosetech-testomonial-3">
+            <div class="card-body text-center pt-5 position-relative">
+              <img src="./assets/images/Frame.svg" alt="rosetech-quote-1"
+                class="position-absolute start-0 translate-middle-y">
+              <h5 class="card-title h6 fw-bold text-secondary">IMRAN HOSSAIN</h5>
+              <p class="card-text text-secondary">Close partnership with clients delivers the best possible outcomes and
+                ensures their
+                success</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /people say/testimonial -->
+  <!-- partners -->
+  <section id="partners" class="pt-5 pb-5">
+    <div class="container">
+      <!-- ##### -->
+      <div class="row justify-content-center">
+        <div class="col-lg-12 text-center">
+          <h1 class="h1 fw-bold text-secondary">Few of our <br><span class="text-warning">Partners & Clients</span></h1>
+          <div class="row align-items-center mt-5 text-center">
+            <div class="col-lg-1 col-sm-12">
+            </div>
+            <div class="col-lg-2 col-sm-12 col-md-4">
+              <img class="img-fluid w-50" src="./assets/images/pslogo.svg" alt="rosetech-partners-1" />
+            </div>
+            <div class="col-lg-2 col-sm-12 col-md-4">
+              <img class="img-fluid w-25" src="./assets/images/figmalogo.svg" alt="rosetech-partners-2" />
+            </div>
+            <div class="col-lg-2 col-sm-12 col-md-4">
+              <img class="img-fluid w-50" src="./assets/images/phplogo.svg" alt="rosetech-partners-3" />
+            </div>
+            <div class="col-lg-2 col-sm-12 col-md-6">
+              <img class="img-fluid w-25" src="./assets/images/jslogo.svg" alt="rosetech-partners-4" />
+            </div>
+            <div class="col-lg-2 col-sm-12 col-md-6">
+              <img class="img-fluid w-50" src="./assets/images/htmllogo.svg" alt="rosetech-partners-5" />
+            </div>
+            <div class="col-lg-1 col-sm-12"></div>
+          </div>
+          <div class="row align-items-center pt-5 text-center">
+            <div class="col-lg-1 col-sm-12"></div>
+            <div class="col-lg-2 col-sm-12 col-md-4">
+              <img class="img-fluid w-50" src="./assets/images/pslogo.svg" alt="rosetech-partners-1" />
+            </div>
+            <div class="col-lg-2 col-sm-12 col-md-4">
+              <img class="img-fluid w-25" src="./assets/images/figmalogo.svg" alt="rosetech-partners-2" />
+            </div>
+            <div class="col-lg-2 col-sm-12 col-md-4">
+              <img class="img-fluid w-50" src="./assets/images/phplogo.svg" alt="rosetech-partners-3" />
+            </div>
+            <div class="col-lg-2 col-sm-12 col-md-6">
+              <img class="img-fluid w-25" src="./assets/images/jslogo.svg" alt="rosetech-partners-4" />
+            </div>
+            <div class="col-lg-2 col-sm-12 col-md-6">
+              <img class="img-fluid w-50" src="./assets/images/htmllogo.svg" alt="rosetech-partners-5" />
+            </div>
+            <div class="col-lg-1 col-sm-12"></div>
+          </div>
+          <div class="row align-items-center pt-5 text-center">
+            <div class="col-lg-1 col-sm-12"></div>
+            <div class="col-lg-2 col-sm-12 col-md-4">
+              <img class="img-fluid w-50" src="./assets/images/pslogo.svg" alt="rosetech-partners-1" />
+            </div>
+            <div class="col-lg-2 col-sm-12 col-md-4">
+              <img class="img-fluid w-25" src="./assets/images/figmalogo.svg" alt="rosetech-partners-2" />
+            </div>
+            <div class="col-lg-2 col-sm-12 col-md-4">
+              <img class="img-fluid w-50" src="./assets/images/phplogo.svg" alt="rosetech-partners-3" />
+            </div>
+            <div class="col-lg-2 col-sm-12 col-md-6">
+              <img class="img-fluid w-25" src="./assets/images/jslogo.svg" alt="rosetech-partners-4" />
+            </div>
+            <div class="col-lg-2 col-sm-12 col-md-6">
+              <img class="img-fluid w-50" src="./assets/images/htmllogo.svg" alt="rosetech-partners-5" />
+            </div>
+            <div class="col-lg-1 col-sm-12"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /choose -->
+  <!-- serving -->
+  <section id="choose" class="pt-5 pb-5">
+    <div class="container">
+      <!-- ##### -->
+      <div class="row justify-content-center">
+        <div class="col-lg-12 text-center">
+          <h1 class="h1 fw-bold text-secondary">Industries we are <br><span class="text-warning">Serving</span></h1>
+          <div class="row align-items-center mt-5">
+            <div class="col-lg-2 col-sm-12 col-md-4">
+              <div class="p-4">
+                <img class="img-fluid w-25" src="./assets/images/fintecg.svg" alt="rosetech-fintech" />
+                <p class="pt-4 fw-bold text-secondary">Fintech</p>
+              </div>
+            </div>
+            <div class="col-lg-2 col-sm-12 col-md-4">
+              <div class="p-4">
+                <img class="img-fluid w-25" src="./assets/images/healthcare.svg" alt="rosetech-healthcare" />
+                <p class="pt-4 fw-bold text-secondary">Healthcare</p>
+              </div>
+            </div>
+            <div class="col-lg-2 col-sm-12 col-md-4">
+              <div class="p-4">
+                <img class="img-fluid w-25" src="./assets/images/telco.svg" alt="rosetech-telco" />
+                <p class="pt-4 fw-bold text-secondary">Telco</p>
+              </div>
+            </div>
+            <div class="col-lg-2 col-sm-12 col-md-4">
+              <div class="p-4">
+                <img class="img-fluid w-25" src="./assets/images/ecom.svg" alt="rosetech-ecom" />
+                <p class="pt-4 fw-bold text-secondary">E-com</p>
+              </div>
+            </div>
+            <div class="col-lg-2 col-sm-12 col-md-4">
+              <div class="p-4">
+                <img class="img-fluid w-25" src="./assets/images/realstate.svg" alt="rosetech-real-estate" />
+                <p class="pt-4 fw-bold text-secondary">Real Estate</p>
+              </div>
+            </div>
+            <div class="col-lg-2 col-sm-12 col-md-4">
+              <div class="p-4">
+                <img class="img-fluid w-25" src="./assets/images/autominol.svg" alt="rosetech-automotive" />
+                <p class="pt-4 fw-bold text-secondary">Automotive</p>
+              </div>
+            </div>
+          </div>
+          <div class="row align-items-center">
+            <div class="col-lg-2 col-sm-12 col-md-4">
+              <div class="p-4">
+                <img class="img-fluid w-25" src="./assets/images/software.svg" alt="rosetech-software" />
+                <p class="pt-4 fw-bold text-secondary">Software</p>
+              </div>
+            </div>
+            <div class="col-lg-2 col-sm-12 col-md-4">
+              <div class="p-4">
+                <img class="img-fluid w-25" src="./assets/images/startup.svg" alt="rosetech-startup" />
+                <p class="pt-4 fw-bold text-secondary">Startup</p>
+              </div>
+            </div>
+            <div class="col-lg-2 col-sm-12 col-md-4">
+              <div class="p-4">
+                <img class="img-fluid w-25" src="./assets/images/education.svg" alt="rosetech-education" />
+                <p class="pt-4 fw-bold text-secondary">Education</p>
+              </div>
+            </div>
+            <div class="col-lg-2 col-sm-12 col-md-4">
+              <div class="p-4">
+                <img class="img-fluid w-25" src="./assets/images/retail.svg" alt="rosetech-reatil" />
+                <p class="pt-4 fw-bold text-secondary">Retail</p>
+              </div>
+            </div>
+            <div class="col-lg-2 col-sm-12 col-md-4">
+              <div class="p-4">
+                <img class="img-fluid w-25" src="./assets/images/nonprofil.svg" alt="rosetech-non-profit" />
+                <p class="pt-4 fw-bold text-secondary">Non-Profit</p>
+              </div>
+            </div>
+            <div class="col-lg-2 col-sm-12 col-md-4">
+              <div class="p-4">
+                <img class="img-fluid w-25" src="./assets/images/misellaneous.svg" alt="rosetech-miscellaneous" />
+                <p class="pt-4 fw-bold text-secondary">Miscellaneous</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Countries -->
+  <section id="countries" class="pt-5 pb-5">
+    <div class="container">
+      <h1 class="h1 fw-bold text-center text-secondary mb-5">Countries we are <br><span
+          class="text-warning">serving</span></h1>
+      <img class="img-fluid" src="./assets/images/countries.svg" alt="rosetech-countries" />
+    </div>
+  </section>
+  <!-- /Countries -->
+  <!-- Footer -->
+  <footer id="footer" class="p-5 bg-secondary">
+    <div class="container pt-2 pb-5">
+      <div class="row g-4">
+        <div class="col-lg-4 mb-3 col-sm-12 p-5  col-md-4">
+          <div class="d-flex align-items-center">
+            <img src="./assets/images/footerlogo.svg" alt="" class="img-fluid w-25">
+            <h1 class="h2 text-white">ROSE<span class="text-warning">TECH</span></h1>
+          </div>
+          <p class="mt-3 text-white">
+            Copyright©2022-2023 Rosetech All Rights Reserved.
+          </p>
+        </div>
+        <div class="col-lg-4  col-sm-12 p-5  col-md-4">
+          <div>
+            <h3 class="h4 fw-bold text-white">Bangladesh</h3>
+            <div class="d-flex">
+              <a><i class="fa-solid fa-location-pin pe-2 text-white"></i></a>
+              <p class="text-white"> 2/E/1 Mymensingh Road,<br>Shahbagh, Dhaka-1000</p>
+            </div>
+          </div>
+          <div>
+            <h3 class="h4 fw-bold text-white">Phone</h3>
+            <div class="d-flex pe-2">
+              <a><i class="fa-solid fa-mobile-button pe-2 text-white"></i></a>
+              <p class="text-white">+8801842546165</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-12 p-5  col-md-4">
+          <div>
+            <h3 class="h4 fw-bold text-white">Socials</h3>
+            <div class="col-lg-5 d-flex gap-2">
+              <a href="#" class="text-white text-decoration-none"><i class="fa-brands fa-facebook"></i></a>
+              <a href="#" class="text-white text-decoration-none"><i class="fa-brands fa-linkedin"></i></a>
+              <a href="#" class="text-white text-decoration-none"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+          </div>
+          <div>
+            <h3 class="h4 fw-bold text-white mt-5">Mail</h3>
+            <div class="d-flex">
+              <a><i class="fa-solid fa-envelope pe-2 text-white"></i></a>
+              <p class="text-white">contact@rosetech.dev</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </footer>
+  <!-- /Footer -->
+
+  <!-- Script -->
+  <!-- Bootstrap -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.bundle.min.js"
+    integrity="sha512-i9cEfJwUwViEPFKdC1enz4ZRGBj8YQo6QByFTF92YXHi7waCqyexvRD75S5NVTsSiTv7rKWqG9Y5eFxmRsOn0A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+
+</html>

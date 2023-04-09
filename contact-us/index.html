@@ -16,9 +16,9 @@
     crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
-<body data-bs-spy="scroll">
-  <section id="hero">
-    <nav class="navbar navbar-expand-md d-flex align-items-center py-2 py-md-4 navbar">
+<body>
+  <section id="nav">
+    <nav class="navbar navbar-expand-md d-flex align-items-center py-2 py-md-4 navbar fixed-top bg-white">
       <div class="container">
         <a class="navbar-brand fw-bold" href="/">
           <img src="../assets/images/logo-rosetech.svg" alt="rosetech-logo" width="30" height="24"
@@ -89,8 +89,9 @@
         </div>
       </div>
     </nav>
-
-    <div class="container">
+  </section>
+  <section id="hero" class="pt-5 pb-5">
+    <div class="container pt-5 pb-5 pe-4 ps-4">
       <div class="row g-4 justify-content-cente align-items-center">
         <div class="col-md-6 text-md-start col-4">
           <h2 class="fw-bold text-uppercase text-secondary">contact us</h2>
@@ -103,20 +104,20 @@
   </section>
   <!-- /Hero -->
   <!-- contact-us -->
-  <section id="getintouch" class="mt-5">
+  <section id="getintouch" class="pt-5 pb-5 pe-4 ps-4">
     <div class="container">
       <h2 class="h2 fw-bold text-secondary text-uppercase text-center text-md-start">get in <span
           class="text-warning">touch</span>
       </h2>
-      <p class="pe-md-5 fs-md-5 text-secondary"> We are excited to hear from you and eager to help you with any
+      <p class="pe-md-5 fs-5 mt-4 text-secondary">We are excited to hear from you and eager to help you with any
         questions or concerns you may have about our services. </p><br>
-      <p class="fw-bold fs-md-5 text-secondary mt-md-5 mb-md-5">To book an appointment with one of our expert
+      <p class="fw-bold fs-5 text-secondary ">To book an appointment with one of our expert
         consultants, please fill up the form below:</p>
     </div>
   </section>
   <!-- /contact-us -->
   <!-- contact-us form-->
-  <section id="getintouch" class="d-none d-md-block mb-5">
+  <section id="getintouch" class="d-none d-md-block pt-5 pb-5 pe-4 ps-4">
     <div class="container">
       <div class="row shadow rounded-5">
         <div class="col-md-8 p-5">
@@ -142,7 +143,7 @@
                         <label for="floatingPassword" class=" text-secondary"">Email</label>
                       </div>
                     </div>
-                    <div class="col-12">
+                    <div class=" col-12">
                           <div class="form-floating">
                             <input type="text" class="form-control" id="inputAddress"
                               placeholder="Group or Company Name">
@@ -156,7 +157,7 @@
                         <label for="floatingTextarea2" class="text-secondary"">How Can we help?</label>
                           </div>                     
                     </div>
-                    <div class="col-12 d-flex justify-content-center mt-5">
+                    <div class=" col-12 d-flex justify-content-center mt-5">
                           <button type="submit"
                             class="btn btn-warning text-center rounded-pill ps-5 pe-5">Submit</button>
                       </div>
@@ -191,7 +192,7 @@
   </section>
   <!-- /contact-us form -->
   <!-- contact-us form mobile -->
-  <section id="contact-usoform" class="d-md-none d-block">
+  <section id="contact-usoform" class="d-md-none d-block pb-5 pe-4 ps-4">
     <div class="container">
       <h5 class="fw-bold">Contact Info</h5>
       <div class="d-flex">
@@ -212,51 +213,53 @@
                 <label for="floatingInput" class=" text-secondary"">First Name</label>
               </div>
               <div class=" form-floating">
-                <input type="number" class="form-control" id="floatingInput" placeholder="Phone">
-                <label for="floatingInput" class=" text-secondary"">Phone</label>
+                  <input type="number" class="form-control" id="floatingInput" placeholder="Phone">
+                  <label for="floatingInput" class=" text-secondary"">Phone</label>
               </div>
               </div>
               <div class=" col-md-6 col-6">
-                <div class=" form-floating mb-3">
-                <input type="text" class="form-control" id="floatingPassword" placeholder="Last Name">
-                <label for="floatingPassword" class=" text-secondary"">Last Name</label>
+                    <div class=" form-floating mb-3">
+                      <input type="text" class="form-control" id="floatingPassword" placeholder="Last Name">
+                      <label for="floatingPassword" class=" text-secondary"">Last Name</label>
               </div>              
               <div class=" form-floating mb-3">
-                <input type="email" class="form-control" id="floatingPassword" placeholder="Email">
-                <label for="floatingPassword" class=" text-secondary"">Email</label>
+                        <input type="email" class="form-control" id="floatingPassword" placeholder="Email">
+                        <label for="floatingPassword" class=" text-secondary"">Email</label>
               </div>
             </div>
             <div class=" col-12">
-              <div class="form-floating mb-3">
-                <input type="text" class="form-control" id="inputAddress" placeholder="Group or Company Name">
-                <label for="text" class="form-label text-secondary">Group or Company Name</label>
-              </div>
-            </div>
-            <div class="col-12">
-              <div class="form-floating">
-                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
-                  style="height: 100px"></textarea>
-                <label for="floatingTextarea2" class="text-secondary"">How Can we help?</label>
+                          <div class="form-floating mb-3">
+                            <input type="text" class="form-control" id="inputAddress"
+                              placeholder="Group or Company Name">
+                            <label for="text" class="form-label text-secondary">Group or Company Name</label>
+                          </div>
+                    </div>
+                    <div class="col-12">
+                      <div class="form-floating">
+                        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
+                          style="height: 100px"></textarea>
+                        <label for="floatingTextarea2" class="text-secondary"">How Can we help?</label>
               </div>                     
             </div>
             <div class=" col-12 d-flex justify-content-center mt-3 mb-3">
-              <button type="submit" class="btn btn-warning text-center rounded-pill ps-5 pe-5">Submit</button>
-            </div>
+                          <button type="submit"
+                            class="btn btn-warning text-center rounded-pill ps-5 pe-5">Submit</button>
+                      </div>
           </form>
-        </div>
-        <div class="col-md-4">
-          <h5 class="ps-3 fw-bold mt-5 mb-2">Map Location</h5>
-          <div class="text-center">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29214.622651442536!2d90.35668350673718!3d23.75351821360303!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b9ff0b26391d%3A0x2e882ffbcf8d57c!2sRose%20Tech%20and%20Computer!5e0!3m2!1sen!2sbd!4v1677092736521!5m2!1sen!2sbd"
-              width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy" class="rounded-5 mb-3"
-              referrerpolicy="no-referrer-when-downgrade"></iframe>
-          </div>
         </div>
       </div>
     </div>
     </div>
   </section>
+  <div class="container d-md-none d-block">
+    <h5 class="ps-3 fw-bold mb-2">Map Location</h5>
+    <div class="text-center">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29214.622651442536!2d90.35668350673718!3d23.75351821360303!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b9ff0b26391d%3A0x2e882ffbcf8d57c!2sRose%20Tech%20and%20Computer!5e0!3m2!1sen!2sbd!4v1677092736521!5m2!1sen!2sbd"
+        width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy" class="rounded-5 mb-3"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
   <!-- contact us form mobile -->
   <!-- Footer -->
   <footer id="footer" class="p-5 bg-secondary  d-none d-md-block">

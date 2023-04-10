@@ -4,6 +4,9 @@
 #tools, #people{
     overflow: hidden;
 }
+.btn.btn-white.dropdown-toggle.border-white.text-secondary {
+	padding: 5px !important;
+}
 .slick-slide img {
     display: inline-table !important;
 }

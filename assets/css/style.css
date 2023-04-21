@@ -1,16 +1,26 @@
-#whoweare, #tools, #serving{
+#whoweare,
+#tools,
+#serving {
     background-color: #f2f2f2;
 }
-#tools, #people{
+
+#tools,
+#people {
     overflow: hidden;
 }
-.btn.btn-white.dropdown-toggle.border-white.text-secondary {
-	padding: 5px !important;
+
+.px-2.btn.btn-white.dropdown-toggle.border-white.text-secondary {
+    padding-top: 7px;
 }
+
+/* .btn.btn-white.dropdown-toggle.border-white.text-secondary {
+	padding: 5px !important;
+} */
 .slick-slide img {
     display: inline-table !important;
 }
-.card{
+
+.card {
     margin-left: 10px;
     margin-right: 10px;
 }
